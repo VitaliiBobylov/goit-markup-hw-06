@@ -236,6 +236,7 @@ ol {
 .benefits-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
 .benefits-icon {
   display: flex;
   align-items: center;
