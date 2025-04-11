@@ -598,6 +598,7 @@ height: 2944px;
 
 .portfolio-list {
   width: 288px;
+
 }
 
 .portfolio-item {
@@ -647,20 +648,24 @@ height: 2944px;
 }
 
 @media screen and (min-width: 768px) {
-  .portfolio {
- height: 1708px;
-  }
-  .hidden-p {
-    display: none;
-  }
-  
   .portfolio-list {
+    padding: 0 16px;
+    width: 840px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 72px;
+    row-gap: 48px;
   }
   .portfolio-item {
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    flex-basis: calc((100% - 24px) / 2);
+    width: calc((100% - 24px) / 2);
   }
+
+}
+
+@media screen and (min-width: 1158px) {
+  .portfolio {
+    padding: 120px 0px;
+  }
+
+
+}
