@@ -217,7 +217,6 @@ ol {
     ),
     url("../images/hero/mobb.jpg");
 
-
 }
 
 .div-conteiner-btn {
@@ -264,6 +263,7 @@ ol {
 .hero-button:focus {
   background-color: #404bbf;
 }
+
 @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
   .section-btn {
     background-image: linear-gradient(
@@ -321,11 +321,14 @@ ol {
 
 @media screen and (min-width: 1158px) {
   .section-btn {
+    
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url("../images/hero/pkk.jpg");
+
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -333,8 +336,6 @@ ol {
     margin: 0 auto;
     max-width: 1440px;
     background-color: #2e2f42;
-
- 
   }
 
  
@@ -343,7 +344,9 @@ ol {
     margin-bottom: 48px;
   }
 }
- @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
+
+
+ @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) 
     .section-btn {
       background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -351,6 +354,9 @@ ol {
       ),
       url("../images/hero/pk@2x.jpg");
     }
+
+
+
 /* benefits */
 
 .benefits {
