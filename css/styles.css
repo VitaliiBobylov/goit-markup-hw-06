@@ -272,6 +272,7 @@ ol {
     ),
     url("../images/hero/mob@2x.jpg");
   }
+}
 
 @media screen and (min-width: 768px) {
   .section-btn {
@@ -315,7 +316,7 @@ ol {
     ),
     url("../images/hero/tab@2x.jpg");
   }
-
+}
 
 
 
@@ -346,7 +347,7 @@ ol {
 }
 
 
- @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) 
+ @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
     .section-btn {
       background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -354,8 +355,7 @@ ol {
       ),
       url("../images/hero/pk@2x.jpg");
     }
-
-
+  }
 
 /* benefits */
 
