@@ -910,14 +910,16 @@ ol {
 }
 @media screen and (min-width: 1158px) {
   .footer {
-    width: 1158px;
+    width: 1440px;
     text-align: left;
   }
   .dop-section {
     flex-wrap: nowrap;
     display: flex;
   }
- 
+ .footer-text{
+  width: 264px;
+ }
   .footer-form-div {
     margin-left: 80px;
   }
