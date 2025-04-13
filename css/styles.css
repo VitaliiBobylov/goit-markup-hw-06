@@ -216,7 +216,6 @@ ol {
       rgba(46, 47, 66, 0.7)
     ),
     url("../images/hero/mobb.jpg");
-
 }
 
 .div-conteiner-btn {
@@ -267,24 +266,22 @@ ol {
 @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
   .section-btn {
     background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url("../images/hero/mob@2x.jpg");
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero/mob@2x.jpg");
   }
 }
 
 @media screen and (min-width: 768px) {
   .section-btn {
-   height: 436px;
+    height: 436px;
     background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url("../images/hero/tabb.jpg");
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero/tabb.jpg");
   }
- 
-
 
   .your-business {
     margin-right: auto;
@@ -306,29 +303,24 @@ ol {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-
 }
 @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
   .section-btn {
     background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url("../images/hero/tab@2x.jpg");
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero/tab@2x.jpg");
   }
 }
 
-
-
 @media screen and (min-width: 1158px) {
   .section-btn {
-    
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url("../images/hero/pkk.jpg");
-
 
     background-position: center;
     background-repeat: no-repeat;
@@ -339,28 +331,25 @@ ol {
     background-color: #2e2f42;
   }
 
- 
-
   .your-business {
     margin-bottom: 48px;
   }
 }
 
-
- @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
-    .section-btn {
-      background-image: linear-gradient(
+@media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
+  .section-btn {
+    background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url("../images/hero/pk@2x.jpg");
-    }
   }
+}
 
 /* benefits */
 
 .benefits {
-height: auto;
+  height: auto;
   padding: 96px 16px;
   color: #2e2f42;
 }
@@ -398,9 +387,8 @@ height: auto;
 }
 
 @media screen and (min-width: 768px) {
-
   .benefits {
-height: 504px;
+    height: 504px;
   }
   .benefits-list {
     gap: 24px;
@@ -422,8 +410,8 @@ height: 504px;
 
 @media screen and (min-width: 1158px) {
   .benefits {
-    height: 363px;  
-      padding: 120px 0 120px;
+    height: 363px;
+    padding: 120px 0 120px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -466,7 +454,7 @@ height: 504px;
 
 .team {
   padding: 96px 28px;
-height: auto;
+  height: auto;
   background-color: #f4f4fd;
 }
 .subtitle-team {
@@ -480,8 +468,6 @@ height: auto;
   text-transform: capitalize;
 }
 
-
-
 .team-list {
   gap: 24px;
 }
@@ -491,7 +477,7 @@ height: auto;
   background-color: #ffffff;
 }
 
-.images-team{
+.images-team {
   width: 100%;
 }
 .div-h-p {
@@ -550,29 +536,26 @@ height: auto;
 @media screen and (min-width: 768px) {
   .team {
     padding: 120px 0 120px;
-height: 1224px;
+    height: 1224px;
   }
   .team-list {
     gap: 24px;
-  display: flex;
+    display: flex;
     flex-wrap: wrap;
-}
-  .team-item {
-
-    border-radius: 0px 0px 4px 4px;
-    flex-basis:  calc((100% - 24px) / 2);
   }
-
+  .team-item {
+    border-radius: 0px 0px 4px 4px;
+    flex-basis: calc((100% - 24px) / 2);
+  }
 }
 
 @media screen and (min-width: 1158px) {
-
   .team-item {
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
     background-color: #ffffff;
-    box-shadow: 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-      0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
   .team-list {
     display: block;
@@ -582,13 +565,11 @@ height: 1224px;
   }
 }
 
-
 /*portfolio*/
 
-
 .portfolio {
-  padding:96px 16px;
-height: auto;
+  padding: 96px 16px;
+  height: auto;
 }
 
 .subtitle-portfolio-h {
@@ -604,7 +585,6 @@ height: auto;
 
 .portfolio-list {
   width: 288px;
-
 }
 
 .portfolio-item {
@@ -620,14 +600,16 @@ height: auto;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
-
+.porfolio-img {
+  width: 288px;
+}
 
 .hidden-p {
   display: none;
 }
 
 .portfolio-h-p {
+  width: 288px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -665,13 +647,18 @@ height: auto;
   .portfolio-item {
     width: calc((100% - 24px) / 2);
   }
+  .porfolio-img {
+    width: 356px;
+  }
 
+  .portfolio-h-p {
+    width: 356px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
   .portfolio {
     padding: 120px 0px;
-    
   }
   .portfolio-list {
     width: 1312px;
@@ -689,6 +676,7 @@ height: auto;
   .porfolio-img {
     position: relative;
     overflow: hidden;
+    width: 360px;
   }
   .porfolio-images {
     display: block;
@@ -709,15 +697,16 @@ height: auto;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+  .portfolio-h-p {
+    width: 360px;
+  }
   .porfolio-text {
     transform: translateY(0%);
   }
 }
 
-
-
 /*footer*/
-
 
 .footer {
   height: auto;
@@ -725,13 +714,11 @@ height: auto;
   padding: 96px 0;
   margin: 0 auto;
   background-color: #2e2f42;
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
-
-
 
 .footer-logo {
   margin-bottom: 16px;
@@ -758,7 +745,7 @@ height: auto;
   color: #f4f4fd;
 }
 
-.soc-footer{
+.soc-footer {
   margin-top: 72px;
 }
 
@@ -777,9 +764,8 @@ height: auto;
   justify-content: center;
 }
 
-.footer-form-div{
+.footer-form-div {
   margin-top: 72px;
-
 }
 
 .soc-footer-item {
@@ -823,7 +809,6 @@ height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .footer-input {
@@ -843,7 +828,9 @@ height: auto;
 .footer-input::placeholder {
   color: #ffffff;
 }
-
+.footer-label {
+  width: 288px;
+}
 .footer-button {
   min-width: 165px;
   height: 40px;
@@ -860,7 +847,7 @@ height: auto;
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-top: 16px ;
+  margin-top: 16px;
 }
 
 .footer-button:hover {
@@ -878,62 +865,63 @@ height: auto;
 
 @media screen and (min-width: 768px) {
   .footer {
-    display: flex;
     width: 768px;
+    align-items: flex-start;
   }
-  .footer-logo {
-    margin-bottom: 24px;
-  }
-  .footer-text {
-    max-width: 480px;
-    margin-bottom: 24px;
-  }
-
-
-
-
-.dop-section{
- align-items: flex-start;
-
-}
-  .soc-footer{
-    justify-content: left;
-    gap: 24px;
-   
-  }
-  .soc-footer-p {
-    margin-bottom: 24px;
-  }
-  .soc-footer-list {
-    gap: 24px;
-  }
-
-
-
-
-
-
-  .footer-form-div {
-    margin-top: 72px;
-    margin-left: 108px ;
-    margin-bottom: 96px;
-  }
-
-  .footer-form-p {
-    margin-bottom: 24px;
-  }
-
-  .footer-form {
+  .dop-section {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
   }
-
+  .container-footer {
+    width: 264px;
+  }
+  .soc-footer {
+    margin: 0;
+    width: 208px;
+  }
+  .footer-form-div {
+    margin-top: 0;
+    width: 100%;
+  }
+  .footer-form {
+    gap: 24px;
+    flex-direction: row;
+    align-items: flex-end;
+  }
   .footer-input {
     width: 264px;
-  } 
-
+  }
+  .footer-label {
+    width: 264px;
+  }
   .footer-button {
     margin-top: 0;
-  
+  }
+  .footer-text {
+    text-align: left;
+  }
+  .soc-footer-p {
+    text-align: left;
+  }
+  .footer-form-p {
+    text-align: left;
+  }
 }
+@media screen and (min-width: 1158px) {
+  .footer {
+    width: 1158px;
+    text-align: left;
+  }
+  .dop-section {
+    flex-wrap: nowrap;
+    display: flex;
+  }
+ 
+  .footer-form-div {
+    margin-left: 80px;
+  }
+  .footer-form-p {
+    text-align: left;
+  }
 }
