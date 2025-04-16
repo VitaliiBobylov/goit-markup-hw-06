@@ -359,7 +359,6 @@ ol {
 }
 
 .your-business {
-  width: 216px;
   margin-right: auto;
   margin-left: auto;
   font-family: "Roboto", sans-serif;
@@ -389,14 +388,11 @@ ol {
   min-width: 169px;
   display: block;
   border-radius: 4px;
-  padding: 16px 32px;
+
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.hero-button:hover {
-  background-color: #404bbf;
-}
-
+.hero-button:hover 
 .hero-button:focus {
   background-color: #404bbf;
 }
@@ -447,7 +443,7 @@ ol {
 
 @media screen and (min-width: 1158px) {
   .section-btn {
-    padding: 188px 15px;
+ 
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -470,6 +466,9 @@ ol {
         ),
         url("../images/hero/pk@2x.jpg");
     }
+  }
+  .div-your-business{
+    width: 496px;
   }
   .your-business {
     margin-bottom: 48px;
