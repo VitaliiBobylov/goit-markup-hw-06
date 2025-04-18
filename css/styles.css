@@ -693,6 +693,9 @@ ol {
 }
 
 @media screen and (min-width: 1158px) {
+  .container-subtitle-h{
+    padding: 0 15px;
+  }
   .team-item {
     width: calc((100% - 72px) / 4);
     background-color: #ffffff;
@@ -706,6 +709,7 @@ ol {
     flex-wrap: nowrap;
   }
 }
+
 /*portfolio*/
 
 .portfolio {
@@ -776,7 +780,7 @@ margin-bottom: 0;
 
 @media screen and (min-width: 768px) {
   .container-portfolio-h {
-    padding: 0;
+    padding: 0 15px;
   }
   .subtitle-portfolio-h {
     width: auto;
@@ -1248,7 +1252,6 @@ display: flex;
 }
 
 .span-checkbox {
-flex-shrink: 0;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -1276,7 +1279,8 @@ letter-spacing: 0.04em;
 color: #8e8f99;
 }
 .a-checkbox {
-
+  min-width: 16px;
+  flex-shrink: 0;
   color: #4d5ae5;
   text-decoration: underline;
   font-size: 12px;
